@@ -23,7 +23,7 @@ document.querySelector("img").addEventListener("click", () => {
 let myButton = document.querySelector("button");
 
 function setUserName() {
-    const myName = prompt("input yout name");
+    const myName = prompt("input your name");
     localStorage.setItem("name", myName);
     myHeading.textContent = `JavaScript is cool!${myName} is cool too!`;
 }
