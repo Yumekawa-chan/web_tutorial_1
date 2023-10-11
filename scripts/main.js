@@ -25,14 +25,14 @@ let myButton = document.querySelector("button");
 function setUserName() {
     const myName = prompt("input yout name");
     localStorage.setItem("name", myName);
-    myHeading.textContent = `javascript is cool!${myName} is cool too!`;
+    myHeading.textContent = `JavaScript is cool!${myName} is cool too!`;
 }
 
 if (!localStorage.getItem("name")) {
     setUserName();
   } else {
     const storedName = localStorage.getItem("name");
-    myHeading.textContent = `Javascript is cool,${storedName}`;
+    myHeading.textContent = `JavaScript is cool,${storedName}`;
 }
 
 myButton.onclick = () => {
