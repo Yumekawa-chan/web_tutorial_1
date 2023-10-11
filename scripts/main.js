@@ -1,5 +1,4 @@
 const myHeading = document.querySelector("h1");
-// myHeading.textContent = "Hello Javascript!";
 
 let ramen = "jiro";
 
@@ -16,22 +15,17 @@ function add(num1,num2){
 
 console.log(add(1,2));
 
-// document.querySelector("html").addEventListener("click", function () {
-//     alert("Don't touch me!!!");
-//   });
-
 document.querySelector("img").addEventListener("click", () => {
     alert("Don't touch me!!!");
 }); 
   
 
 let myButton = document.querySelector("button");
-let myHeading2 = document.querySelector("h1");
 
 function setUserName() {
     const myName = prompt("input yout name");
     localStorage.setItem("name", myName);
-    myHeading.textContent = `javascript is cool!${myName},is cool too!`;
+    myHeading.textContent = `javascript is cool!${myName} is cool too!`;
 }
 
 if (!localStorage.getItem("name")) {
