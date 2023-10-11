@@ -1,5 +1,22 @@
+html{
+    background-color: rgb(184, 255, 255);
+}
+
 h1{
     text-align: center;
     font-size: 40px;
     color:blue;
+}
+
+.outer {
+    border: 5px solid rgb(140, 0, 179);
+  }
+  
+.box {
+margin: 30px;
+width: 120px;
+height: 120px;
+color:white;
+background-color: rgb(255, 30, 176);
+transform: rotate(0.8turn);
 }
